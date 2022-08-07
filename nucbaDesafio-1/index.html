@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Nucba 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            /* background: url('./imagenes/wp10054308-leather-texture-wallpapers.jpg'); */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+        }
+
+        .contenedor{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+
+        .li {
+            list-style: none;
+        }
+
+        div{
+            padding: 5px;
+        }
+
+        img{
+            border-radius: 49%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- ************************ -->
+    <!-- EJERCICIO 1 -->
+    <!-- ************************ -->
+
+    <h1>Curriculum Vitae De Bruce Wayne</h1>
+    <div class="imagen">
+        <img src="imagenes/wp6135569-desktop-texture-wallpapers.jpg" alt="" width="200px" height="200px">
+    </div>
+    <div class="imagen2">
+
+    </div>
+    <h2>Datos personales</h2> <a href="http://google.com.ar"><button type="submit" > boton a google</button></a>
+    <ul>
+        <li>Nombre completo: <b>Bruce Wayne</b></li>
+        <li>Fecha de nacimiento: <b>1/5/1939</b></li>
+        <li>Lugar de nacimiento: <b>Gotham City</b></li>
+    </ul>
+
+    <h2>Formación Académica</h2>
+    <ul>
+        <li>1956-1962: <b>Universidad de Espantapájaros</b></li>
+        <li>1952-1956: <b>Instituto de Dos Caras</b></li>
+        <li>1944-1952: <b>Escuela Primaria del Joker</b></li>
+    </ul>
+
+    <h2>Experiencia Laboral</h2>
+    <ul>
+        <li>1975-1985: <b>En el Paro</b></li>
+        <li>1965-1975: <b>Cazavillanos y demás chusma</b></li>
+        <li>1962-1965: <b>Aprendíz de superhéroe</b></li>
+    </ul>
+    <hr>
+
+
+    <!-- ************************ -->
+    <!-- EJERCICIO 2 -->
+    <!-- ************************ -->
+
+    <H1>Internet</H1>
+    <h2>Contenido</h2>
+    <ol>
+        <li>Principales protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+
+    <h2>1) Pricipales protocolos</h2>
+    <ul>
+        <li>Transmisión de ficheros:</li>
+        <ul>
+            <li>FTP</li>
+        </ul>
+        <li>Correo electrónico</li>
+        <ul>
+            <li>IMAP</li>
+            <li>POP</li>
+            <li>SMTP</li>
+        </ul>
+    </ul>
+    <H2>2) Formas de conectarse</H2>
+    <ul>
+        Red Telefónica Conmutada (RTC)
+        <ul>
+            <li class="li">La línea telefónica de toda la vida Para acceder a internet es necesario un módem.</li>
+        </ul>
+    </ul>
+    <ul>
+        Red Digital de Servicios Integrados (RDSI)
+        <ul>
+            <li class="li">Una linea telefónica especial. Para acceder a internet es necesario un módem RDSL</li>
+        </ul>
+    </ul>
+    <ul>
+        Linea de Abonado digital Asimetrica (ADSL)
+        <ul>
+            <li class="li">Se basa en la conversión de una linea RTC en una linea de lata velocidad. Para acceder a
+                internet es necesario un módem ADSL.</li>
+        </ul>
+    </ul>
+    <ul>
+        Fibra óptica
+        <ul>
+            <li class="li">Una linea de fibra óptica. Normalmente la fibra óptica no llega al usuario final, por lo que
+                el término mas apropiado es Fibra híbrida coaxial.</li>
+        </ul>
+    </ul>
+    <hr>
+
+
+    <!-- ************************ -->
+    <!-- EJERCICIO 3 -->
+    <!-- ************************ -->
+ 
+    <h1>Formulario de registro</h1>
+    <form action="#">
+        <div><label for="">Nombre: <input type="text" name="" id="Nombre"></label></div>
+        <div><label for="">Apellido: <input type="text" name="" id="Apellido"></label></div>
+        <div><label for="">Sexo: <input type="radio" name="sexo" id="Sexo">hombre <input type="radio" name="sexo" id="">mujer
+            </label></div>
+        <div><label for="">Correo: <input type="email" name="" id="Correo"></label></div>
+        <div><input type="checkbox" name="" id=""><label for="">Deseo recibir informacción sobre novedades y
+                ofertas</label></div>
+        <div><input type="checkbox" name="" id=""><label for="">Declaro haber leído y aceptar las condiciones generales
+                del programa y la normativa sobre protección de datos</label></div>
+
+        <input type="submit" value="Enviar Datos">
+    </form>
+    <hr>
+    <!-- ************************ -->
+    <!-- EJERCICIO 4 -->
+    <!-- ************************ -->
+
+    <h1>Formulario de registro 2</h1>
+    <form action="#">
+        <div><label for="">Nombre: <input type="text" name="" id=""></label></div>
+        <div><label for="">Apellido: <input type="text" name="" id=""></label></div>
+        <div><label for="">Sexo: <input type="radio" name="sexo" id="">hombre <input type="radio" name="sexo" id="">mujer
+            </label></div>
+        <div><label for="">Correo: <input type="email" name="" id=""></label></div>
+        <div><label for="">Población:
+                <select name="" id="">
+                    <option value="">Alicante</option>
+                    <option value="">Murcia</option>
+                    <option value="">Barcelona</option>
+                </select>
+            </label></div>
+        <div><label for="">Descripción:
+                <textarea name="" id="" cols="70" rows="10"></textarea>
+            </label></div>
+        <div><input type="checkbox" name="" id=""><label for="">Deseo recibir informacción sobre novedades y
+                ofertas</label></div>
+        <div><input type="checkbox" name="" id=""><label for="">Declaro haber leído y aceptar las condiciones generales
+                dle programa y la normativa sobre protección de datos</label></div>
+
+        <input type="submit" value="Enviar Datos">
+    </form>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.imagen{
+    text-align: center;
+}
+.imagen2{
+    width: 200px;
+    height: 200px;
+    background-image: url(./imagenes/wp6135569-desktop-texture-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: conver;
+    border-radius: 50%;
+}
