@@ -25,6 +25,32 @@
       display: inline-block;
       padding: 20px;
     }
+
+    form {
+      width: 30%;
+    }
+
+    .inputs {
+      margin-bottom: 15px;
+    }
+
+    .etiquetas {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .entradas {
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    #boton {
+      padding: 8px 10px;
+      border-radius: 20px;
+      background-color: brown;
+      color: antiquewhite;
+    }
   </style>
 </head>
 
@@ -98,6 +124,26 @@
           <li>IMDB: 2.0 estrellas</li>
         </ul>
       </article>
+    </section>
+    <section>
+      <form action="#" method="post">
+        <h2 style="text-align: center;">Contáctanos</h2>
+        <div class="inputs">
+          <label class="etiquetas" for="nombre">Nombre:</label>
+          <input class="entradas" type="text" id="nombre">
+        </div>
+        <div class="inputs">
+          <label class="etiquetas" for="apellido">Apellido:</label>
+          <input class="entradas" type="text" id="apellido">
+        </div>
+        <div class="inputs">
+          <label class="etiquetas" for="mail">Correo electrónico:</label>
+          <input class="entradas" type="email" id="mail">
+        </div>
+        <div class="inputs">
+          <input id="boton" type="submit" value="enviar datos">
+        </div>
+      </form>
     </section>
 </body>
 
